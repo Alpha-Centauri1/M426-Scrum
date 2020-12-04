@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "I1npfnnaeG527YTKS+fizl26pQfLFd9LY08oHbX1fMkFMKtVSVTnAflVpbQ+PULxzDpbEdbYftHOpNACm810AA==",
+  "success": true,
+  "projectFilePath": "D:\\TBZ\\3. Lehrjahr\\Modul 426\\Projekt\\M426-Scrum\\WebApp\\WebApp\\WebApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gottfried\\.nuget\\packages\\microsoft.aspnetcore.spaservices.extensions\\5.0.0\\microsoft.aspnetcore.spaservices.extensions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Gottfried\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\5.0.0\\microsoft.extensions.fileproviders.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Gottfried\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\5.0.0\\microsoft.extensions.fileproviders.physical.5.0.0.nupkg.sha512",
+    "C:\\Users\\Gottfried\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\5.0.0\\microsoft.extensions.filesystemglobbing.5.0.0.nupkg.sha512",
+    "C:\\Users\\Gottfried\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
