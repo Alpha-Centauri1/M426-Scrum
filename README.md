@@ -4,5 +4,5 @@
 - Stoll Gottfried
 - Sandholzer Diego
 - Scherrer Elia
-- Mäder Nils  <--Schwul
+- Mäder Nils
 - Tuninga Luca
