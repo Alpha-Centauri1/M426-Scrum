@@ -1,30 +1,32 @@
 import React, { Component } from 'react';
+import PlacesService from '../services/PlacesService';
+import PlacesProvider from '../providers/PlacesProvider';
 
 export class Counter extends Component {
   static displayName = Counter.name;
 
   constructor(props) {
     super(props);
-    this.state = { currentCount: 0 };
-    this.incrementCounter = this.incrementCounter.bind(this);
+    this.state = { apiResponse: "" };
   }
 
-  incrementCounter() {
-    this.setState({
-      currentCount: this.state.currentCount + 1
+  componentWillMount() {
+    this.callAPI();
+  }
+
+  callAPI() {
+    PlacesService("Germany", PlacesProvider)
+    .then(response => {
+      console.log(response);
     });
+    this.setState({ apiResponse: 'Hey' });
   }
 
   render() {
     return (
       <div>
         <h1>Counter</h1>
-
-        <p>This is a simple example of a React component.</p>
-
-        <p aria-live="polite">Current count: <strong>{this.state.currentCount}</strong></p>
-
-        <button className="btn btn-primary" onClick={this.incrementCounter}>Increment</button>
+        <p>{this.state.apiResponse}</p>
       </div>
     );
   }
