@@ -1,0 +1,12 @@
+.container {
+    padding: 10em;
+}
+
+.loginModal {
+    position: relative;
+    height: 10vh;
+    width: 20vw;
+    border-radius: 7px;
+    left: 40vw;
+    top: 30vh;
+}
