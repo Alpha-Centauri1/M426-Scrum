@@ -1,0 +1,82 @@
+.mapContainer {
+    width: 98vw;
+    text-align: center;
+    margin-left: 0.5vw;
+}
+
+.modal {
+    display: block !important;
+    position: absolute !important;
+    top: 4em !important;
+    left: 1em !important;
+    transform-origin: center top !important;
+    white-space: normal !important;
+    text-align: center !important;
+    text-transform: none !important;
+    background: #fff !important;
+    margin-top: .5em !important;
+    width: 20em !important;
+    height: 88vh !important;
+    z-index: 997 !important;
+    visibility: visible !important;
+}
+
+.to {
+    margin-top: 0.8em;
+    text-align: left;
+    margin-left: 0.6em;
+}
+
+#to {
+    margin-top: 0.8em;
+    text-align: left;
+    margin-left: 0.6em;
+}
+
+.quotesModal {
+    margin-top: 1em;
+}
+
+.flight {
+    height: 5em !important;
+    padding: .3em !important;
+    text-align: left !important;
+}
+
+.destination {
+    position: relative;
+    left: 1em;
+    top: .5em;
+    font-size: 12px;
+}
+
+.carrier {
+    position: relative;
+    right: 1.2em;
+    top: -2em;
+    font-size: 10px;
+    text-align: right;
+}
+
+.origin {
+    position: relative;
+    left: 1.2em;
+    top: -3em;
+    font-size: 10px;
+}
+
+.direct {
+    position: relative;
+    left: 1.2em;
+    top: -3em;
+    font-size: 10px;
+}
+
+.price {
+    position: relative;
+    right: 1.2em;
+    bottom: 5.3em;
+    font-size: 10px;
+    color: #15D769;
+    text-align: right;
+}
